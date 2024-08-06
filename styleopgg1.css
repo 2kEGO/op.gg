@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+}
+
+.header_container{
+    height: 200px;
+    width: 100%;
+}
+
+.header_top{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    background-color: #1c1c1f;
+}
+
+.logo {
+    padding: 0px 24px  0px 24px;
+    width: 66px;
+    height: 48px;
+}
+
+.logo img{
+    height: inherit;
+    width: inherit;
+}
+
+.header_right {
+    margin-left: auto;
+    display: flex;
+    padding-right: 24px;
+    width: 209.875px;
+    height: 48px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+
+.stat {
+    height: 48px;
+    width: 270.703px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.stat_logo{
+    height: 24px;
+    width: 24px;
+}
+
+
+#stat_logo{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.stat button{
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.next_to_logo {
+    height: inherit;
+    width: 731.422px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+.next_to_logo a{
+    padding: 4px 8px 4px 12px;
+    gap: 10px;
+    text-decoration: none;
+    
+}
+
+.next_to_logo span{
+    color: #858586;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+
+}
+
+.three_button {
+    width: 128px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign_in_button{
+    padding: 6px 12px 6px 12px;
+    height: 40px;
+    width: 65.875px;
+    border: 0;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #bdb8a8;
+    background-color: #424254;
+}
+
+.three_button button{
+    height: inherit;
+    width: 40px;
+}
+
+.desktop img{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.desktop {
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    width: 83.188px;
+    height: 40px;
+    gap: 10px;
+}
+
+.duo img {
+    width: 24px;
+    height: 24px;
+}
+
+.duo {
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+.talkg img {
+    width: 24px;
+    height: 24px;
+}
+
+.talkg {
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+.gigs_img {
+    width: 24px;
+    height: 24px;
+}
+
+#gigs_span1{
+    font-size: 9px;
+    font-family: "Roboto", sans-serif;
+    padding: 1px 4px;
+    border-radius: 70px;
+    background-color: #e79c00;
+    color: #735e0a;
+}
+
+.gigs {
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+.games img {
+    width: 24px;
+    height: 24px;
+}
+
+.games {
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.esport {
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.esport img{
+    width: 24px;
+    height: 24px;
+}
+
+.menu {
+    background-color: #424254;
+    color: white;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    height:40px;
+    width: 200px;
+    padding: 4px 8px;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border: 0;
+    cursor: pointer;
+}
+
+.lol_logo{
+    width: 24px;
+    height: 24px;
+    margin-right: auto;
+}
+
+.point_down {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+}
+
+#meh1, #meh2, #meh3 {
+    width: 90%;
+    height: 90%;
+    
+}
+
+.meh1_containter,
+.meh2_container,
+.meh3_container{
+    display: flex;
+    background-color: #1c1c1f;
+    border: 0;
+    color: white;
+}
