@@ -2,16 +2,19 @@
 
 body{
     margin: 0;
+    background-color: #1c1c1f;
 }
 
+
 .header_container{
-    height: 200px;
+    height: 97px;
     width: 100%;
 }
 
 .header_top{
     width: 100%;
-    height: 48px;
+    height: 50%;
+    top: 0;
     display: flex;
     background-color: #1c1c1f;
 }
@@ -71,13 +74,13 @@ body{
 
 
 .next_to_logo {
-    height: inherit;
+    height: 48px;
     width: 731.422px;
     display: flex;
     align-items: center;
     justify-items: center;
-    
-    
+    cursor: pointer;
+
 }
 
 .next_to_logo a{
@@ -125,8 +128,6 @@ body{
     height: 24px;
 }
 
-
-
 .desktop {
     align-items: center;
     justify-items: center;
@@ -134,7 +135,23 @@ body{
     width: 83.188px;
     height: 40px;
     gap: 10px;
+    position: relative;
+    justify-content: space-between;
 }
+
+/* .desktop_overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+} */
+
+
 
 .duo img {
     width: 24px;
@@ -237,5 +254,9 @@ body{
     display: flex;
     background-color: #1c1c1f;
     border: 0;
+    color: white;
+}
+
+.next_to_logo span:hover {
     color: white;
 }
