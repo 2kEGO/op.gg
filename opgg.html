@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styleopgg1.css">
     <link rel="stylesheet" href="styleopgg2.css">
     <link rel="stylesheet" href="styleopgg3.css">
+    <link rel="stylesheet" href="styleopgg4.css">
     <title>Op.gg</title>
 </head>
 <body>
@@ -13,66 +14,128 @@
         <div class="header_container">
             <div class="header_top">
                 <a href="logo" class="logo">
-                    <img src="../op.gg/Fakeropgg.webp" alt="opgg_logo">
+                    <img src="../header_image/logo/Fakeropgg.webp" alt="opgg_logo">
                 </a>
                 <div class="stat">
-                    <img src="../op.gg/Stat.webp" alt="" class="stat_logo">
+                    <img src="../header_image/stat_bar/Stat.webp" alt="" class="stat_logo">
                     <span id="stat_logo">Stats</span>
-                    <button type="menu" class="menu">
+                    <div class="menu_container">
+                        <button type="menu" class="menu">
+                            <img src="../header_image/stat_bar/stat_lol.webp" alt="" class="lol_logo" >
+                            <span class="lol_span">League of Legends</span>
+                            
+                            <div class="pointy"></div>
+                        </button>
+                        <div class="dropdown_menu">
+                            <div class="dropdown_menu_grid">
+                                <button class="grid_button">
+                                    <a href="" class="grid_items">
+                                        <img src="../header_image/stat_bar/dropdown/Small_icon/lol.webp" alt="" class="grid_img" id="grids_lol">
+                                        <span class="grid_span">League of Legends</span>
+                                    </a>                                    
+                                </button>
 
-                        <img src="../op.gg/stat_lol.webp" alt="" class="lol_logo" >
-                        League of Legends
-                        <img src="../down-arrow.png" alt="" class="point_down" height="16px" width="16px">
-                    </button>
+                                <button class="grid_button">
+                                    <a href="" class="grid_items">
+                                        <img src="../header_image/stat_bar/dropdown/Small_icon/tft.webp" alt="" class="grid_img" id="grids_tft">
+                                        <span class="grid_span">Teamfight Tactics</span>
+                                    </a>
+
+                                </button>
+                                <button class="grid_button">
+                                    <a href="" class="grid_items">
+                                        <img src="../header_image/stat_bar/dropdown/Small_icon/valorant.webp" alt="" class="grid_img" id="grids_valo">
+                                        <span class="grid_span">Valorant</span>
+                                    </a>                                    
+                                </button>
+
+                                <button class="grid_button">
+                                    <a href="" class="grid_items">
+                                        <img src="../header_image/stat_bar/dropdown/Small_icon/overwatch2.webp" alt="" class="grid_img" id="grids_ow2">
+                                        <span class="grid_span">OVERWATCH2</span>
+                                    </a>                                    
+                                </button>
+
+                                <button class="grid_button">
+                                    <a href="" class="grid_items">
+                                        <img src="../header_image/stat_bar/dropdown/Small_icon/pubg.webp" alt="" class="grid_img" id="grids_pubg">
+                                        <span class="grid_span">PUBG</span>
+                                    </a>                                  
+                                </button>                                                           
+                            </div>
+                            <div class="dropdown_menu_img">
+                                <img src="header_image/stat_bar/dropdown/Large_img/Lol.webp" alt="lol" class="dropdown_img" id="dropdown_img1">
+                                <img src="header_image/stat_bar/dropdown/Large_img/TFT.webp" alt="tft" class="dropdown_img" id="dropdown_img2">
+                                <img src="header_image/stat_bar/dropdown/Large_img/Valorant.webp" alt="valo" class="dropdown_img" id="dropdown_img3">
+                                <img src="header_image/stat_bar/dropdown/Large_img/overwatch2.webp" alt="ow2" class="dropdown_img" id="dropdown_img4">
+                                <img src="header_image/stat_bar/dropdown/Large_img/Pubg.webp" alt="pubg" class="dropdown_img" id="dropdown_img5">
+                                <img src="header_image/stat_bar/dropdown/Large_img/Default.jpg" alt="default" class="default">
+                            </div>
+                        </div>
+                    </div>  
                 </div>
             
                 <div class="next_to_logo">
                         <a href="https://op.gg/desktop/" class="desktop">
-                            <img src="../op.gg/opgg_transparent.webp" alt="desktop" class="">
-                            <!-- <img src="../op.gg/opgg_transparent.webp" class="desktop_transparent"> -->
-                            <span>Desktop</span>
-                            <!-- <div class="desktop_overlay">
-                                <img src="../op.gg/desktopg.webp" alt="">
-                            </div> -->
+                            <div class="next_to_logo_img">
+                                <img src="../header_image/next_to_statbar/opgg/opgg_transparent.webp" alt="desktop" class="imageid">
+                                <img src="../header_image/next_to_statbar/opgg/desktopg.webp" class="imageid_transparent">
+                            </div>
+                            <span class="spanid">Desktop</span>
                         </a>
 
-                        <a href="https://duo.op.gg/" class="duo">
-                            <img src="../op.gg/Duo_transparent.webp" alt="duo"> 
-                            <span>Duo</span>    
+                        <a href="https://duo.op.gg/" class="desktop">
+                            <div class="next_to_logo_img">
+                                <img src="../header_image/next_to_statbar/Duo/Duo_transparent.webp" alt="duo" class="imageid"> 
+                                <img src="../header_image/next_to_statbar/Duo/Duo.webp" alt="" class="imageid_transparent">
+                            </div>
+                            <span class="spanid">Duo</span>    
                         </a>
 
-                        <a href="https://talk.op.gg/" class="talkg">
-                            <img src="../op.gg/TalkG_transparent.webp" alt="">
-                            <span>TalkG</span>
+                        <a href="https://talk.op.gg/" class="desktop">
+                            <div class="next_to_logo_img">
+                                <img src="../header_image/next_to_statbar/TalkG/TalkG_transparent.webp" alt="" class="imageid">
+                                <img src="header_image/next_to_statbar/TalkG/TalkG.webp" alt="" class="imageid_transparent">
+                            </div>
+                            <span class="spanid">TalkG</span>
                         </a>
 
-                        <a href="https://esports.op.gg/" class="esport">
-                            <img src="../op.gg/Esport_transparent.webp" alt="">
-                            <span>Esports</span>
+                        <a href="https://esports.op.gg/" class="desktop">
+                            <div class="next_to_logo_img">
+                                <img src="../header_image/next_to_statbar/Esport/Esport_transparent.webp" alt="" class="imageid">
+                                <img src="header_image/next_to_statbar/Esport/Esport.webp" alt="" class="imageid_transparent">
+                            </div>
+                            <span class="spanid">Esports</span>
                         </a>
 
-                        <a href="https://gigs.op.gg/" class="gigs">
-                            <img src="../op.gg/Gig_transparent.webp" alt="" class="gigs_img">
-                            <span >Gigs</span>
-                            <span id="gigs_span1">New</span>
-                        </a>
+                        <a href="https://gigs.op.gg/" class="desktop">
+                            <div class="next_to_logo_img">
+                                <img src="../header_image/next_to_statbar/Gigs/Gig_transparent.webp" alt="" class="imageid">
+                                <img src="header_image/next_to_statbar/Gigs/Gig.webp" alt="" class="imageid_transparent">
+                            </div>
 
-                        <a href="https://games.op.gg/" class="games">
-                            <img src="../op.gg/Games_transparent.webp" alt="">
-                            <span>Games</span>
+                            <div class="gigs_new_container">
+                                <div class="gigs">
+                                    <span class="spanid">Gigs</span>
+                                </div>
+                                
+                                <div class="new">
+                                    <span id="span_new">New</span>
+                                </div>
+                            </div>
                         </a>
                     
                 </div>
                 <div class="header_right">
                     <div class="three_button">
                         <button type="menu" class="meh1_containter">
-                            <img src="../op.gg/button_meh.png" alt="meh1" id="meh1">
+                            <img src="../header_image/right_side/button_meh.png" alt="meh1" id="meh1">
                         </button>
                         <button type="button" class="meh2_container">
-                            <img src="../op.gg/meh2.png" alt="" id="meh2">
+                            <img src="../header_image/right_side/meh2.png" alt="" id="meh2">
                         </button>
                         <button type="button" class="meh3_container">
-                            <img src="../op.gg/meh3.png" alt="" id="meh3">
+                            <img src="../header_image/right_side/meh3.png" alt="" id="meh3">
                         </button>
                     </div>
                     <button type="button" class="sign_in_button">Sign in</button>
@@ -100,23 +163,452 @@
 
     <div class="body">
         <div class="body_image">
-            <img src="../op.gg/body_image.webp" alt="">
+            <img src="../Body_image/body_image.webp" alt="" id="body_img">
         </div>
-        <div class="body_searchbar">
-            <div class="search_bar">
-                <form action="" class="search_bar_form">
-                    <div class="search_bar_region"></div>
-                    <div class="search_bar_search">
-                        <input type="input">
-                    </div>
-                    <button class=""><span>.GG</span></button>
-                </form>
+
+        <div class="search_engine">
+            <div class="upper">
+                <div class="select_region">
+                    <small class="label">Region</small>
+                    <button class="select_region_button">North America</button>
+                </div>
+
+                <div class="search">
+                    <small class="label">Search</small>
+                    <input type="text" class="search_input" placeholder="Game Name + #NA1">
+                </div>
+                
+                <button class="gg_button">
+                    <span id="gg_button_span">GG</span>
+                </button>
             </div>
-            <div class="ad1"></div>
+            
+            <div class="downer">
+                <div class="downer_container">
+                    <a href="" class="downer_container_wrap">
+                        <img src="../Body_image/ads_under_search/opgg-premium-web.png" alt="" id="downer_img1">
+                        <div class="downer_ads_container">
+                            <div class="downer_img_container">
+                                <img src="../Body_image/ads_under_search/icon-premium-symbol.svg" alt="" id="downer_img2">
+                            </div>
+                            <div class="downer_adsword_upper">
+                                <div class="downer_adword_up">
+                                    <Span class="downer_span1">OP.GG Premium</Span>
+                                    <span class="downer_span2">OPEN BETA</span>
+                                </div>
+                                
+                                <div class="downer_adsword_down">
+                                    <span class="downer_span3">Use OP.GG ad-free, with premium features</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </a>
+                </div>
+    
+            </div>
         </div>
-        <div class="body_ad"></div>
-        <div class="body_player_stat"></div>
+
+        <div class="empty"></div>
+        
+        <div class="body_end">
+            <section class="body_end_left">
+                <h2 class="body_end_header"><strong>Experience the fast speed of OP.GG for Desktop!</strong></h2>
+                <ul class="body_end_display">
+                    <li class="body_end_items" id="body_end_items1">
+                        <h3 class="body_end_text">Real-time auto rune setting</h3>
+                        <a href="https://op.gg/desktop/en?utm_source=opgg&utm_medium=banner&utm_campaign=mainpage" class="body_end_text">
+                            <img src="../Body_image/Under_empty/left/top_left.png" alt="" class="body_end_img">
+                        </a>
+                    </li>
+
+                    <li class="body_end_items" id="body_end_items2">
+                        <h3 class="body_end_text">Latest meta and recommendations</h3>
+                        <a href="https://op.gg/desktop/en?utm_source=opgg&utm_medium=banner&utm_campaign=mainpage" class="body_end_text">
+                            <img src="../Body_image/Under_empty/left/top_right.png" alt="" class="body_end_img">
+                        </a>
+                    </li>
+
+                    <li class="body_end_items" id="body_end_items3">
+                        <h3 class="body_end_text">OP champions, team comps, and more</h3>
+                        <a href="https://op.gg/desktop/en?utm_source=opgg&utm_medium=banner&utm_campaign=mainpage" class="body_end_text">
+                            <img src="../Body_image/Under_empty/left/bottom_left.png" alt="" class="body_end_img">
+                        </a>
+                    </li>
+
+                    <li class="body_end_items" id="body_end_items4">
+                        <h3 class="body_end_text">In-game overlay features to help dominate</h3>
+                        <a href="https://op.gg/desktop/en?utm_source=opgg&utm_medium=banner&utm_campaign=mainpage" class="body_end_text">
+                            <img src="../Body_image/Under_empty/left/bottom_right.png" alt="" class="body_end_img">
+                        </a>
+                    </li>
+                </ul>
+                
+                
+                
+            </section>
+
+            <section class="body_end_right">           
+                <a class="body_end_right_header" href="https://esports.op.gg/players/2895/Peyz?hl=en_US&utm_source=opgg&utm_medium=button&utm_campaign=click_playeroftheweek_epsports" >
+                    <div class="esport_title">
+                        <h2 class="player_of_the_week">
+                            <img src="../Body_image/Under_empty/right/Player_of_the_week/Player_of_the_week.svg" alt="" class="player_of_the_week_img">
+                        </h2>
+                        <h3 class="player_info">
+                            <div class="player_info_team">
+                                <img src="../Body_image/Under_empty/right/Player_of_the_week/T1.webp" alt="" class="player_info_team_img">
+                            </div>
+                            <div class="player_info_team">
+                                <img src="../Body_image/Under_empty/right/Player_of_the_week/Mid.svg" alt="" class="player_info_team_lane">
+                            </div>
+                            <span class="player_name">Faker</span>
+                        </h3>
+                    </div>
+
+                    <div class="player">
+                        <img src="../Body_image/Under_empty/right/Player_of_the_week/Faker.webp" alt="" class="player_img">
+                    </div>
+                </a>
+
+                <div class="ranking_and_schedule">
+                    <div class="ranking">
+                        <div class="ranking_header">
+                            <span class="standing_header">Standing</span>
+                            <nav ranking_button_po>
+                                <button type="button" class="team_button_po">Team</button>
+                                <button type="button" class="team_button_po">PO</button>
+                            </nav>
+                        </div>
+                        <ul class="team_list">
+                            <li class="team_items">
+                                <a class="team_items_container" href="">
+                                    <div class="esport">1</div>
+                                    <div class="esport">
+                                        <img src="../Body_image/Under_empty/right/Team_standing/GENG.webp" alt="" class="esport_team_img">
+                                    </div>
+                                    <div class="esport" id="esport_name">GENG</div>
+                                    <div class="esport">15W-1L</div>
+                                    <div class="esport">19</div>
+                                </a>
+                            </li>
+                            <li class="team_items">
+                                <a class="team_items_container" href="">
+                                    <div class="esport">2</div>
+                                    <div class="esport">
+                                        <img src="../Body_image/Under_empty/right/Team_standing/HLE.webp" alt="" class="esport_team_img">
+                                    </div>
+                                    <div class="esport" id="esport_name">HLE</div>
+                                    <div class="esport">13W-3L</div>
+                                    <div class="esport">19</div>
+                                </a>
+                            </li>
+                            <li class="team_items">
+                                <a class="team_items_container" href="">
+                                    <div class="esport">3</div>
+                                    <div class="esport">
+                                        <img src="../Body_image/Under_empty/right/Team_standing/DK.webp" alt="" class="esport_team_img">
+                                    </div>
+                                    <div class="esport" id="esport_name">DK</div>
+                                    <div class="esport">11W-5L</div>
+                                    <div class="esport">11</div>
+                                </a>
+                            </li>
+                            <li class="team_items">
+                                <a class="team_items_container" href="">
+                                    <div class="esport">4</div>
+                                    <div class="esport">
+                                        <img src="../Body_image/Under_empty/right/Team_standing/T1.webp" alt="" class="esport_team_img">
+                                    </div>
+                                    <div class="esport" id="esport_name">T1</div>
+                                    <div class="esport">10W-7L</div>
+                                    <div class="esport">4</div>
+                                </a>
+                            </li>
+                            <li class="team_items">
+                                <a class="team_items_container" href="">
+                                    <div class="esport">5</div>
+                                    <div class="esport">
+                                        <img src="../Body_image/Under_empty/right/Team_standing/KT.webp" alt="" class="esport_team_img">
+                                    </div>
+                                    <div class="esport" id="esport_name">KT</div>
+                                    <div class="esport">9W-8L</div>
+                                    <div class="esport">0</div>
+                                </a>
+                            </li>
+                            <li class="team_items">
+                                <a class="team_items_container" href="">
+                                    <div class="esport">6</div>
+                                    <div class="esport">
+                                        <img src="../Body_image/Under_empty/right/Team_standing/fearx.webp" alt="" class="esport_team_img">
+                                    </div>
+                                    <div class="esport" id="esport_name">FOX</div>
+                                    <div class="esport">8W-8L</div>
+                                    <div class="esport">-3</div>
+                                </a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="schedule">
+                        <div class="schedule_header">
+                            <div class="schedule_title">
+                                <span class="title_span">Schedule</span>
+                            </div>
+                            <div class="schedule_date">
+                                <span class="title_span">2024. 8. 16 FRI</span>
+                            </div>
+                        </div>
+                        <ul class="game_schedule">
+
+                            <li class="schedule_border">
+                                <a href="" class="schedule_container">
+
+                                    <div class="logo_preview">
+                                        <div class="logo_preview_container">
+                                            <div class="team_logo">
+                                                <img src="../Body_image/Under_empty/right/Team_standing/KT.webp" alt="" class="team_logo_img">
+                                            </div>
+                                            <div class="team_logo">
+                                                <span class="preview_span">Preview</span>
+                                            </div>
+                                            <div class="team_logo">
+                                                <img src="../Body_image/Under_empty/right/Team_standing/DK.webp" alt="" class="team_logo_img">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="time_preview">
+                                        <div class="time_preview_container">
+                                            <div class="team_name">
+                                                <span class="team_name_span">KT</span>
+                                            </div>
+                                            <div class="time">
+                                                <span class="span_date">08.17 Sat</span>
+                                                <span class="team_name_span">02:00</span>
+                                            </div>
+                                            <div class="team_name">
+                                                <span class="team_name_span">DK</span>
+                                            </div>
+                                        </div>                                                                                                                              
+                                    </div>
+
+                                    
+                                </a>
+                            </li>
+
+                            <li class="schedule_border">
+                                <a href="" class="schedule_container">
+
+                                    <div class="logo_preview">
+                                        <div class="logo_preview_container">
+                                            <div class="team_logo">
+                                                <img src="../Body_image/Under_empty/right/Team_standing/T1.webp" alt="" class="team_logo_img">
+                                            </div>
+                                            <div class="preview_span_container">
+                                                <span class="preview_span">Preview</span>
+                                            </div>
+                                            <div class="team_logo">
+                                                <img src="../Body_image/Under_empty/right/Team_standing/fearx.webp" alt="" class="team_logo_img">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="time_preview">
+                                        <div class="time_preview_container">
+                                            <div class="team_name">
+                                                <span class="team_name_span">T1</span>
+                                            </div>
+                                            <div class="time">
+                                                <span class="Span_date">08.17 Sat</span>
+                                                <span class="team_name_span">04:30</span>
+                                            </div>
+                                            <div class="team_name">
+                                                <span class="team_name_span">FOX</span>
+                                            </div>
+                                        </div>                                                                                                                              
+                                    </div>
+
+                                    
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </section>
+                        
+        </div>
+
     </div>
+   
+    <footer>
+        <div class="footer_border">
+            <section class="footer_info_container">
+                <strong class="footer_section_title">
+                    <a href="" class="footer_section1_img">
+                        <img src="Footer_image/icon-opgglogo-white.svg" alt="" class="section1_img">
+                    </a>
+                </strong>
+
+                <div class="footer_section">
+                    <strong class="footer_section_title">OP.GG</strong>
+                    <nav class="footer_section_container">
+                        <a href="" class="footer_section_items">About OP.GG</a>
+                        <a href="" class="footer_section_items">Company</a>
+                        <a href="" class="footer_section_items">Blog</a>
+                        <a href="" class="footer_section_items">Logo history</a>
+                    </nav>
+                </div>
+                <div class="footer_section">
+                    <strong class="footer_section_title">Products</strong>
+                    <nav class="footer_section_container">
+                        <a href="https://op.gg" class="footer_section_items">
+                            League of Legends
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Teamfight Tactics
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Valorant
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            OVERWATCH2
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            PUBG
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Desktop
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Duo
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            TalkG
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Esports
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Gigs
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        
+                    </nav>
+                </div>
+
+                <div class="footer_section">
+                    <strong class="footer_section_title">Apps</strong>
+                    <nav class="footer_section_container">
+                        <a href="https://op.gg" class="footer_section_items">
+                            OP.GG for Mobile Android
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            OP.GG for Mobile iOS
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            AllT Android
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            AllT iOS
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Valorant Android
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Valorant iOS
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Gigs Android
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Gigs iOS
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            TalkG Android
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            TalkG iOS
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Esports Android
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        <a href="https://op.gg" class="footer_section_items">
+                            Esports iOS
+                            <img src="Footer_image/icon-game-white.svg" alt="" class="footer_section_img">
+                        </a>
+                        
+                    </nav>
+                </div>
+
+                <div class="footer_section">
+                    <strong class="footer_section_title">Resources</strong>
+                    <nav class="footer_section_container">
+                        <a href="" class="footer_section_items">Privacy Policy</a>
+                        <a href="" class="footer_section_items">Terms of Use</a>
+                        <a href="" class="footer_section_items">Help</a>
+                        <a href="" class="footer_section_items">Email inquiry</a>
+                        <a href="" class="footer_section_items">Contact us</a>
+                    </nav>
+                </div>
+
+                <div class="footer_section">
+                    <strong class="footer_section_title">More</strong>
+                    <nav class="footer_section_container">
+                        <a href="" class="footer_section_items">Business</a>
+                        <a href="" class="footer_section_items">Advertise</a>
+                        <a href="" class="footer_section_items">Recruit</a>
+                    </nav>
+                </div>
+            </section>
+            <section class="footer_copyright">
+                <div class="paragraph_container">
+                    <p class="paragraph_p">© 2012-2024 OP.GG. OP.GG is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
+
+                    </p>
+                </div>
+                <nav class="social_media">
+                    <a href="https://s-lol-web.op.gg/images/icon/icon-logo-instagram.svg?v=1721451321478" class="social_link">
+                        <img src="Footer_image/social_media/icon-logo-instagram.svg" alt="insta" class="social_img">
+                    </a>
+                    <a href="https://s-lol-web.op.gg/images/icon/icon-logo-youtube.svg?v=1721451321478" class="social_link">
+                        <img src="Footer_image/social_media/icon-logo-youtube.svg" alt="youtube" class="social_img">
+                    </a>
+                    <a href="https://twitter.com/opgg_official" class="social_link">
+                        <img src="Footer_image/social_media/icon-logo-x.svg" alt="x" class="social_img">
+                    </a>
+                    <a href="https://www.facebook.com/opgg.official/" class="social_link">
+                        <img src="Footer_image/social_media/icon-logo-facebook.svg" alt="fb" class="social_img">
+                    </a>
+                    <a href="https://www.overwolf.com/oneapp/opgg-electron-app" class="social_link">
+                        <img src="Footer_image/social_media/icon-logo-overwolf.svg" alt="overwolf" class="social_img">
+                    </a>
+                    
+                </nav>
+            </section>
+        </div>
+    </footer>
     
 </body>
 </html>

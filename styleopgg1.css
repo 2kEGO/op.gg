@@ -3,8 +3,7 @@
 body{
     margin: 0;
     background-color: #1c1c1f;
-}
-
+    
 
 .header_container{
     height: 97px;
@@ -83,19 +82,6 @@ body{
 
 }
 
-.next_to_logo a{
-    padding: 4px 8px 4px 12px;
-    gap: 10px;
-    text-decoration: none;
-    
-}
-
-.next_to_logo span{
-    color: #858586;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-
-}
 
 .three_button {
     width: 128px;
@@ -123,117 +109,174 @@ body{
     width: 40px;
 }
 
-.desktop img{
-    width: 24px;
-    height: 24px;
-}
 
 .desktop {
     align-items: center;
     justify-items: center;
     display: flex;
-    width: 83.188px;
+    width: 84px;
     height: 40px;
-    gap: 10px;
     position: relative;
     justify-content: space-between;
+    padding: 4px 8px 4px 12px;
+    gap: 10px;
+    text-decoration: none;
 }
 
-/* .desktop_overlay{
+
+.next_to_logo_img{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.imageid{
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.imageid_transparent{
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    cursor: pointer;
-} */
-
-
-
-.duo img {
     width: 24px;
     height: 24px;
 }
 
-.duo {
-    align-items: center;
-    justify-items: center;
+
+.spanid{
+    width: 40px;
+    height: 14px;
     display: flex;
-}
-.talkg img {
-    width: 24px;
-    height: 24px;
-}
-
-.talkg {
-    align-items: center;
-    justify-items: center;
-    display: flex;
-}
-.gigs_img {
-    width: 24px;
-    height: 24px;
-}
-
-#gigs_span1{
-    font-size: 9px;
+    color: #858586;
     font-family: "Roboto", sans-serif;
-    padding: 1px 4px;
-    border-radius: 70px;
-    background-color: #e79c00;
-    color: #735e0a;
+    font-size: 14px;
+
+    /* justify-items: center;
+    justify-content: center;
+    align-items: center; */
 }
 
-.gigs {
-    align-items: center;
-    justify-items: center;
-    display: flex;
-}
-.games img {
-    width: 24px;
-    height: 24px;
-}
-
-.games {
-    align-items: center;
-    justify-items: center;
+.gigs_new_container{
     display: flex;
 }
 
-.esport {
-    align-items: center;
-    justify-items: center;
+.new{
     display: flex;
+    
 }
 
-.esport img{
-    width: 24px;
-    height: 24px;
+#span_new{
+    border: 3px solid transparent;
+    background-color: #eb9c00;
+    font-size: 7pt;
+    border-radius: 2rem;
+    color: black;
+
+
 }
 
 .menu {
     background-color: #424254;
     color: white;
     border-radius: 5px;
-    font-family: "Roboto", sans-serif;
-    height:40px;
+    height:inherit;
     width: 200px;
     padding: 4px 8px;
-    font-size: 14px;
     justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
     display: flex;
     border: 0;
     cursor: pointer;
+    position: relative;
+    
 }
+
+.lol_span{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.menu_container {
+    position: relative;
+    height: inherit;
+}
+
+.dropdown_menu{
+    position: absolute;
+    height: 13rem;
+    width: 32rem;
+    background-color: #31313C;
+    left: -30px;
+    margin-top: 2px;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    opacity: 0;
+}
+
+.dropdown_menu_grid{
+    display: grid;
+    width: 50%;
+    height: inherit;
+    left: 0;
+    margin-right: 10px;
+}
+
+.dropdown_menu_img{
+    display: flex;
+    width: 50%;
+    height: inherit;
+    right: 0;
+}
+
+.grid_img{
+    height: 20px;
+    width: 20px;
+}
+
+.grid_items{
+    display: flex;
+    height: inherit;
+    width: inherit;
+    text-decoration: none;
+    gap: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+.grid_button{
+    display: flex;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    justify-self: left;
+    width: 100%
+    
+}
+
+.grid_span{
+    color: white;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    bottom: 0;
+}
+
+.pointy {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+}
+
 
 .lol_logo{
     width: 24px;
     height: 24px;
-    margin-right: auto;
+    
 }
 
 .point_down {
@@ -257,6 +300,62 @@ body{
     color: white;
 }
 
-.next_to_logo span:hover {
+/* .next_to_logo span:hover {
     color: white;
+} */
+
+/* next to logo hover */
+
+.imageid_transparent{
+    opacity: 0;
+}
+
+.desktop:hover .imageid{
+    opacity: 0;
+}
+
+.desktop:hover .imageid_transparent{
+    opacity: 1;
+    
+}
+
+.desktop:hover .spanid{
+    color: white;
+}
+
+.default{
+    position: relative;
+    width: 248px;
+    height: 140px;
+    opacity: 1;
+}
+
+.dropdown_img{
+    position: absolute;
+    width: 248px;
+    height: 140px;
+    opacity: 0;
+}
+
+
+/* .grid_button:hover {
+    background-color: #424254;
+} */
+
+/* #grids_lol:hover,
+.grid_button:hover{
+    background-color: #424254;
+} */
+
+/* #grids_button:hover .default{
+    opacity: 0;
+    background-color: #424254;
+} */
+
+#grids_lol:hover ~ #default{
+    opacity: 0;
+}
+
+#grids_lol:hover ~ #dropdown_img1{
+    opacity: 1;
 }
