@@ -202,8 +202,7 @@ body{
 }
 
 .dropdown_menu{
-    position: absolute;
-    height: 13rem;
+    position: absolute; 
     width: 32rem;
     background-color: #31313C;
     left: -30px;
@@ -211,7 +210,10 @@ body{
     border-radius: 5px;
     display: flex;
     padding: 20px;
+
+    visibility: hidden;
     opacity: 0;
+    
 }
 
 .dropdown_menu_grid{

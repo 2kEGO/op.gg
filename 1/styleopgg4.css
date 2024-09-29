@@ -104,3 +104,9 @@ footer{
     width: 24px;
     height: 24px;
 }
+
+.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0rem);
+  }

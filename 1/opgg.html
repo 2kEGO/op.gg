@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styleopgg2.css">
     <link rel="stylesheet" href="styleopgg3.css">
     <link rel="stylesheet" href="styleopgg4.css">
+    <script src="index.js"></script>
     <title>Op.gg</title>
 </head>
 <body>
@@ -20,13 +21,13 @@
                     <img src="../header_image/stat_bar/Stat.webp" alt="" class="stat_logo">
                     <span id="stat_logo">Stats</span>
                     <div class="menu_container">
-                        <button type="menu" class="menu">
+                        <button type="menu" class="menu" id="btn">
                             <img src="../header_image/stat_bar/stat_lol.webp" alt="" class="lol_logo" >
                             <span class="lol_span">League of Legends</span>
-                            
                             <div class="pointy"></div>
                         </button>
-                        <div class="dropdown_menu">
+
+                        <div class="dropdown_menu" id="dropdown">
                             <div class="dropdown_menu_grid">
                                 <button class="grid_button">
                                     <a href="" class="grid_items">
@@ -585,7 +586,6 @@
             <section class="footer_copyright">
                 <div class="paragraph_container">
                     <p class="paragraph_p">© 2012-2024 OP.GG. OP.GG is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
-
                     </p>
                 </div>
                 <nav class="social_media">
